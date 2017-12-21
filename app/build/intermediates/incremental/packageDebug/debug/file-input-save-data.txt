@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Dec 21 05:21:21 SAST 2017
+0.baseType=DIRECTORY
+0.base=/Users/sihle/AndroidStudioProjects/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/18
+0.path=classes.dex
+0.set=DEX
+count=1

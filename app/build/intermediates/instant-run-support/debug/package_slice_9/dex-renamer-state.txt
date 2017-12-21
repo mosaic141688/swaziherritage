@@ -1,0 +1,4 @@
+#Thu Dec 21 05:16:18 SAST 2017
+base.0=/Users/sihle/AndroidStudioProjects/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
