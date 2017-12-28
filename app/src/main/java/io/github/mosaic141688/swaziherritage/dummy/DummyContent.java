@@ -37,6 +37,7 @@ public class DummyContent {
         addItem(new MenuItem("02","News","Get the latest news from local news outlets' websites","News"));
         addItem(new MenuItem("03","Sports","Recent summary of local and international sports","Sports"));
         addItem(new MenuItem("04","Entertainment & Tourism","Updates in Tourism and Entertainment","Entertainment & Tourism"));
+        addItem(new MenuItem("05","Education","Links To education Websites","Educational Links"));
     }
 
     private static void addItem(MenuItem item) {

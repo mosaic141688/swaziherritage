@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sihle/AndroidStudioProjects/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/sihle/experiments/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/res/values-v23/values-v23.xml",

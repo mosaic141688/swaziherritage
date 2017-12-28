@@ -35,7 +35,7 @@
         android:layout_height="77dp"
         android:layout_gravity="bottom|end"
         app:bmb_buttonEnum="ham"
-        app:bmb_buttonPlaceEnum="buttonPlace_ham_4"
-        app:bmb_piecePlaceEnum="piecePlace_ham_4" />
+        app:bmb_buttonPlaceEnum="buttonPlace_ham_5"
+        app:bmb_piecePlaceEnum="piecePlace_ham_5" />
 
 </android.support.design.widget.CoordinatorLayout>

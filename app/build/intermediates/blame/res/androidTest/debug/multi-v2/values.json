@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sihle/AndroidStudioProjects/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/sihle/experiments/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/res/values/values.xml",

@@ -136,10 +136,10 @@ public final class R {
         public static final int default_bmb_text_outside_circle_width = 0x7f06006e;
     }
     public static final class drawable {
-        public static final int piece = 0x7f07007b;
-        public static final int piece_dot = 0x7f07007c;
-        public static final int shape_oval_normal = 0x7f07007d;
-        public static final int shape_rectangle_normal = 0x7f07007e;
+        public static final int piece = 0x7f07007c;
+        public static final int piece_dot = 0x7f07007d;
+        public static final int shape_oval_normal = 0x7f07007e;
+        public static final int shape_rectangle_normal = 0x7f07007f;
     }
     public static final class id {
         public static final int boomHorizontalThrow_1 = 0x7f080023;

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sihle/AndroidStudioProjects/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/sihle/experiments/swaziherritage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/res/values-en-rGB/values-en-rGB.xml",
