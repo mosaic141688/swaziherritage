@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="hdpi"
     format="10"
-    ir-eligibility="STATIC_INITIALIZER_CHANGE"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1514484503655"
+    timestamp="1514488328131"
     token="7520870668217931051"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="202" />
+        duration="196" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="35" />
     <task
         name="verifier"
-        duration="6" />
+        duration="1" />
 
     <artifact
         location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -34,7 +34,7 @@
     <build
         build-mode="FULL"
         ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1514484366057"
+        timestamp="1514488231540"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -52,40 +52,31 @@
             location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sihle/experiments/swaziherritage/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1514484432257"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/sihle/experiments/swaziherritage/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1514484503655"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1514488328131"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/sihle/experiments/swaziherritage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"

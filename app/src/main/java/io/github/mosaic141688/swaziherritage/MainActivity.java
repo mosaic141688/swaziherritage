@@ -40,29 +40,31 @@ public class MainActivity extends AppCompatActivity {
 
 
 static{
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting"));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting"));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting"));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting"));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting"));
+    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
    // tourism.add(new )
 }
 
 static {
-    education.add(new ListContent("01","Past Exam Papers","Exams Council"));
-    education.add(new ListContent("02","Khan Academy Website","www.khanacademy.org/"));
+    education.add(new ListContent("http://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-accounting-0452/past-papers/","Past Exam Papers","Accounting IGCSE Papers",Intent.ACTION_SEND));
+    education.add(new ListContent("http://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-science-combined-0653/past-papers/","Past Exam Papers","Combined Science IGCSE Papers",Intent.ACTION_SEND));
+    education.add(new ListContent("https://www.khanacademy.org/","Khan Academy Website","The Khan Academy Website Has Educational material for all levels in education",Intent.ACTION_SEND));
+    education.add(new ListContent("https://www.intmath.com","Interactive Mathematics","A website that lets you learn mathematics while you play with it",Intent.ACTION_SEND));
 
 }
 
 
     static {
-        ussdCodes.add(new ListContent("01","Check Cell Phone Number","*123#"));
-        ussdCodes.add(new ListContent("02","Account Ballance","*202#"));
-        ussdCodes.add(new ListContent("03","Load Airtime Voucher","*200*Voucher Pin#"));
-        ussdCodes.add(new ListContent("04","Convert Airtime to data Bundle","*203*Bundle Amount#"));
-        ussdCodes.add(new ListContent("05","Convert Airtime to a package","*204*Package Amount#"));
-        ussdCodes.add(new ListContent("06","Share Airtime using Mapha","*205* Amount * Cellphone Number#"));
-        ussdCodes.add(new ListContent("07","Access Your Voicemail","142"));
+        ussdCodes.add(new ListContent("tel:*123#","Check Cell Phone Number","*123#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:*202#","Account Ballance","*202#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:*200*Voucher Pin#","Load Airtime Voucher","*200*Voucher Pin#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:*203*Bundle Amount#","Convert Airtime to data Bundle","*203*Bundle Amount#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:204*Package Amount#","Convert Airtime to a package","*204*Package Amount#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:*205* Amount * Cellphone Number#","Share Airtime using Mapha","*205* Amount * Cellphone Number#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:142","Access Your Voicemail","142",Intent.ACTION_SEND));
     }
 
     static {
@@ -87,7 +89,8 @@ static {
                 "\n" +
                 "\n" +
                 "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
-                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"));
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"
+                ,Intent.ACTION_SEND));
         sports.add(new ListContent("01","WE ARE TIRED OF LOSING TO SWALLOWS – ‘MLABA’","\n" +
                 "\n" +
                 "MBABANE – Ahead of this afternoon’s capital city derby, Mbabane Highlanders midfielder Mlamuli ‘Mlaba’ Nkambule has declared ‘enough is enough.’\n" +
@@ -108,7 +111,7 @@ static {
                 "\n" +
                 "\n" +
                 "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
-                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"));
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n",Intent.ACTION_SEND));
         sports.add(new ListContent("03","TEAMS PETITION NETBALL LEADERSHIP AGAIN","\n" +
                 "\n" +
                 "MBABANE – It seems the National Netball Association of Swaziland (NNAS) executive committee is still unpopular with the teams.\n" +
@@ -117,7 +120,8 @@ static {
                 "Just when the leaders were celebrating the national side’s flawless outing in the Mission Foods Nations Cup in Singapore, where a silver medal was reaped about a fortnight ago; the teams burst their bubble. The executive committee was petitioned and summoned to a meeting at Zakhele in Manzini in the past weekend.\n" +
                 "\n" +
                 "\n" +
-                "The concerns of the teams, it was reliably gathered, were headlined by the ‘lack of a clear development plan.’ A well-informed insider disclosed that the affiliates demanded a strategic and operational plan, among other things, but the executive allegedly reported that the documents were available, but were yet to be distributed.   \n"));
+                "The concerns of the teams, it was reliably gathered, were headlined by the ‘lack of a clear development plan.’ A well-informed insider disclosed that the affiliates demanded a strategic and operational plan, among other things, but the executive allegedly reported that the documents were available, but were yet to be distributed.   \n"
+                ,Intent.ACTION_SEND));
     }
 
 
@@ -138,7 +142,8 @@ static {
                 "The applicants (government doctors) also want the court to declare that  the decision by government to pay them as aformentioned instead of paying them in terms of Circular No.7 of 1993 would result in less favourable conditions of employment.\n" +
                 "\n" +
                 "\n" +
-                "In her founding affidavit, Dr Zebenguni Mkhatshwa stated that on or about June 16, 1993, government issued out Establishment Circular No.7 of 1993. She submitted that the purpose of the Circular was to regulate claims and payments to the applicants (doctors and technical staff) of their standby and on-call allowance by government.\n"));
+                "In her founding affidavit, Dr Zebenguni Mkhatshwa stated that on or about June 16, 1993, government issued out Establishment Circular No.7 of 1993. She submitted that the purpose of the Circular was to regulate claims and payments to the applicants (doctors and technical staff) of their standby and on-call allowance by government.\n"
+                ,Intent.ACTION_SEND));
         listContents.add(new ListContent("01", "GLUE-SNIFFING MOTHER BASHES, INJURES SON (6)", " SITEKI – A boy (6) sustained serious injuries and was forced to flee and spend a night in a forest after he was brutally assaulted by his mother, who is reportedly on drugs.\n" +
                 "\n" +
                 "\n" +
@@ -158,7 +163,8 @@ static {
                 "\n" +
                 "Court papers allege that the woman did wrongfully and unlawfully assault the minor and further failed to seek medical assistance for the injuries he had sustained, thus exposing the boy to danger. It is further mentioned in court papers that the severe beating inflicted on the minor resulted in both physical and emotional injuries.\n" +
                 "\n" +
-                "The mother appeared before Acting Lubombo Principal Magistrate Donald Mavuso, who was sitting at the Siteki Magistrates Court. She was not asked to plead to the charges she is facing but she informed the court that she would represent herself during trial. Prosecutors informed the court that the minor has been discharged from hospital and that he is recuperating at a ‘safe place’."));
+                "The mother appeared before Acting Lubombo Principal Magistrate Donald Mavuso, who was sitting at the Siteki Magistrates Court. She was not asked to plead to the charges she is facing but she informed the court that she would represent herself during trial. Prosecutors informed the court that the minor has been discharged from hospital and that he is recuperating at a ‘safe place’."
+                ,Intent.ACTION_SEND));
         listContents.add(new ListContent("01", "NO ‘SIX TO SIX’ CLUB PARTIES THIS FESTIVE", " MBABANE – Booze lovers will not be allowed to stay for extended hours in bars and certain drinking spots.\n" +
                 "\n" +
                 "\n" +
@@ -176,7 +182,8 @@ static {
                 "“Even if you have a cross-over party, you cannot apply for an extension if you are not part of the three types of businesses,” emphasised Hlophe.\n" +
                 "\n" +
                 "\n" +
-                "When asked about whether there would be an exception this festive season that could allow the three types of businesses to apply for extensions around Christmas and on New Year’s Eve, Hlophe responded to the negative. He stressed that there would be no negotiations in this regard and added that they had a system in place that showed if a certain company had already been granted permission to operate additional hours in that month."));
+                "When asked about whether there would be an exception this festive season that could allow the three types of businesses to apply for extensions around Christmas and on New Year’s Eve, Hlophe responded to the negative. He stressed that there would be no negotiations in this regard and added that they had a system in place that showed if a certain company had already been granted permission to operate additional hours in that month."
+                ,Intent.ACTION_SEND));
     }
 
     @Override
@@ -293,8 +300,8 @@ static {
 
                     Context context = holder.mIdView.getContext();
                     Intent sendIntent = new Intent();
-                    sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.setData(Uri.parse("tel:76492278"));
+                    //sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.setData(Uri.parse(mValues.get(position).id));
                    // sendIntent.putExtra(Intent.EXTRA_TEXT, "Hello");
                    // sendIntent.setType("text/plain");
 
@@ -337,9 +344,11 @@ class ListContent {
     public final String id;
     public final String title;
     public final String body;
+    public final String action;
 
-    public ListContent(String id, String title, String body) {
+    public ListContent(String id, String title, String body,String action) {
         this.id = id;
+        this.action = action;
         this.title = title;
         this.body = body;
     }
