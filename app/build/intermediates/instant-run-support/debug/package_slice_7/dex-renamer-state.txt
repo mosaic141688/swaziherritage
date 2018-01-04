@@ -1,4 +1,4 @@
-#Thu Dec 28 21:10:37 SAST 2017
-base.0=/Users/sihle/experiments/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/45
+#Fri Dec 29 20:25:05 SAST 2017
+base.0=/Users/sihle/experiments/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/64
 path.0=classes.dex
 renamed.0=classes.dex

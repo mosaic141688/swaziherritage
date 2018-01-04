@@ -136,7 +136,7 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#ec3237</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="default_bmb_dimColor">#55000000</color>
     <color name="default_bmb_highlighted_color">#00000000</color>
@@ -164,6 +164,7 @@
     <color name="error_text_material_light">@color/material_red_A700</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="grey">#616163</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -191,6 +192,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#ec3237</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -203,6 +205,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>

@@ -1,5 +1,6 @@
 package io.github.mosaic141688.swaziherritage;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -35,17 +36,48 @@ public class MainActivity extends AppCompatActivity {
     public static List<ListContent> sports = new ArrayList<>();
     public static List<ListContent> tourism = new ArrayList<>();
     public static List<ListContent> education = new ArrayList<>();
+    public static List<ListContent> promotions = new ArrayList<>();
+    public static List<ListContent> entour = new ArrayList<>();
+    public static List<ListContent> etertainment = new ArrayList<>();
+    public static List<ListContent> news = new ArrayList<>();
+    public static List<ListContent> sport = new ArrayList<>();
+    public static  View recyclerView ;//= findViewById(R.id.item_list);
+    public static Activity activity;
+
+    static {
+        news.add(new ListContent("news","Local News","News From local media","local"));
+        news.add(new ListContent("news","International News","News from International media","international"));
+    }
+
+    static {
+        sport.add(new ListContent("sport","Local Sports","News From local media","local"));
+        sport.add(new ListContent("sport","Europe Sports","European Sports","eu"));
+        sport.add(new ListContent("sport","World Sports","International Sports","int"));
+        sport.add(new ListContent("sport","South African Sports","News from International media","international"));
+    }
 
 
 
 
-static{
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
-    tourism.add(new ListContent("01","White Water Rafting","Details About White Water rafting",Intent.ACTION_SEND));
+
+    static{
+    tourism.add(new ListContent("01","eSwatini do's","Activities to do when you are in Swaziland",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","Hotels","Details About Hotels",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","Site Seing","Details About Site Seing",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","Restaurants","Details About Restaurants",Intent.ACTION_SEND));
+    tourism.add(new ListContent("01","Shuttle Services","Available Shuttle Services",Intent.ACTION_SEND));
    // tourism.add(new )
+}
+
+static {
+    etertainment.add(new ListContent("01","Clubs","Local Clubs",""));
+    etertainment.add(new ListContent("01","Brai Houses","Eat the best brai",""));
+    etertainment.add(new ListContent("01","Chill Sessions","Where to chill",""));
+}
+
+static {
+    entour.add(new ListContent("entour","Tourism","Hotels, sites, Restaurants ","tourism"));
+    entour.add(new ListContent("entour","Entertainment","Clubs, Brai Houses, Chill Sessions","entertainment"));
 }
 
 static {
@@ -58,7 +90,7 @@ static {
 
 
     static {
-        ussdCodes.add(new ListContent("tel:*123#","Check Cell Phone Number","*123#",Intent.ACTION_SEND));
+        ussdCodes.add(new ListContent("tel:*123","Check Cell Phone Number","*123#",Intent.ACTION_SEND));
         ussdCodes.add(new ListContent("tel:*202#","Account Ballance","*202#",Intent.ACTION_SEND));
         ussdCodes.add(new ListContent("tel:*200*Voucher Pin#","Load Airtime Voucher","*200*Voucher Pin#",Intent.ACTION_SEND));
         ussdCodes.add(new ListContent("tel:*203*Bundle Amount#","Convert Airtime to data Bundle","*203*Bundle Amount#",Intent.ACTION_SEND));
@@ -186,19 +218,26 @@ static {
                 ,Intent.ACTION_SEND));
     }
 
+
+    static{
+        promotions.add(new ListContent("","","",""));
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        final Toolbar toolbar =  findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        final View recyclerView = findViewById(R.id.item_list);
+        toolbar.setSubtitle("We Work We connect We Serve");
 
-        final BoomMenuButton bmb = (BoomMenuButton) findViewById(R.id.bmb);
+        final BoomMenuButton bmb = findViewById(R.id.bmb);
         bmb.setNormalColor(R.color.colorPrimary);
+        recyclerView = findViewById(R.id.item_list);
 
         final HashMap<String, Integer> icons = new HashMap<>();
         final HashMap<String, List> lists = new HashMap<>();
+        final HashMap<String, Integer> colors = new HashMap<>();
+
         icons.put("Swazi4U", R.drawable.ic_action_swazifu);
         icons.put("News", R.drawable.ic_action_news);
         icons.put("Sports", R.drawable.ic_action_sport);
@@ -206,10 +245,21 @@ static {
         icons.put("Educational Links",R.drawable.ic_action_school);
 
         lists.put("Swazi4U", ussdCodes);
-        lists.put("News", listContents);
-        lists.put("Sports", sports);
-        lists.put("Entertainment & Tourism", tourism);
+        lists.put("News", news);
+        lists.put("Sports", sport);
+        lists.put("Entertainment & Tourism", entour);
         lists.put("Educational Links",education);
+
+
+
+        colors.put("Swazi4U", R.color.red);
+        colors.put("News", R.color.white);
+        colors.put("Sports", R.color.grey);
+        colors.put("Entertainment & Tourism", R.color.red);
+        colors.put("Educational Links",R.color.white);
+
+
+        activity = this;
 
         final List[] lst = new List[bmb.getPiecePlaceEnum().pieceNumber()];
 
@@ -218,13 +268,16 @@ static {
             HamButton.Builder builder = new HamButton.Builder()
                     .normalImageRes(icons.get(DummyContent.ITEMS.get(i).title))
                     .normalText(DummyContent.ITEMS.get(i).title)
-                    .normalColorRes(R.color.colorAccent)
+                    .normalTextColorRes(colors.get(DummyContent.ITEMS.get(i).title)!=R.color.white?R.color.white:R.color.red)
+                    .subNormalTextColorRes(colors.get(DummyContent.ITEMS.get(i).title)!=R.color.white?R.color.white:R.color.red)
+                    .normalColorRes(colors.get(DummyContent.ITEMS.get(i).title))
                     .listener(new OnBMClickListener() {
                         @Override
                         public void onBoomButtonClick(int index) {
                             Log.e("Boom Index",""+index);
                             setupRecyclerView((RecyclerView) recyclerView,lst[index]);
-
+                            toolbar.setTitle(DummyContent.ITEMS.get(index).title);
+                            toolbar.setSubtitle(DummyContent.ITEMS.get(index).details);
                         }
                     })
                     .subNormalText(DummyContent.ITEMS.get(i).details);
@@ -232,12 +285,12 @@ static {
         }
 
         assert recyclerView != null;
-        setupRecyclerView((RecyclerView) recyclerView,ussdCodes);
+        setupRecyclerView((RecyclerView) recyclerView,listContents);
 
     }
 
-    private void setupRecyclerView(@NonNull RecyclerView recyclerView,List _list) {
-        recyclerView.setAdapter(new MainActivity.SimpleItemRecyclerViewAdapter(this, _list, false));
+    private static void setupRecyclerView(@NonNull RecyclerView recyclerView,List _list) {
+        recyclerView.setAdapter(new MainActivity.SimpleItemRecyclerViewAdapter((MainActivity) activity, _list, false));
     }
 
     public static class SimpleItemRecyclerViewAdapter
@@ -298,6 +351,24 @@ static {
                 public void onClick(View v) {
                     Log.e("CLick",mValues.get(position).id);
 
+                    if(mValues.get(position).id.equals("entour")){
+                        HashMap<String,List> links = new HashMap<>();
+                        links.put("tourism",tourism);
+                        links.put("entertainment",etertainment);
+                        setupRecyclerView((RecyclerView) recyclerView,links.get(mValues.get(position).action));
+                        return;
+                    }
+
+                    if(mValues.get(position).id.equals("news")){
+                        setupRecyclerView((RecyclerView) recyclerView,listContents);
+                        return;
+                    }
+
+                    if(mValues.get(position).id.equals("sport")){
+                        setupRecyclerView((RecyclerView) recyclerView,sports);
+                        return;
+                    }
+
                     Context context = holder.mIdView.getContext();
                     Intent sendIntent = new Intent();
                     //sendIntent.setAction(Intent.ACTION_SEND);
@@ -329,9 +400,9 @@ static {
 
             ViewHolder(View view) {
                 super(view);
-                expTv = (ExpandableTextView) view.findViewById(R.id.expand_text_view);
-                mIdView = (TextView) view.findViewById(R.id.id_text);
-                mContentView = (TextView) view.findViewById(R.id.expandable_text);
+                expTv = view.findViewById(R.id.expand_text_view);
+                mIdView = view.findViewById(R.id.id_text);
+                mContentView =  view.findViewById(R.id.expandable_text);
             }
         }
     }
