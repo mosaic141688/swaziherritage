@@ -1,205 +1,205 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.nightonke:boommenu:2.1.1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/7413a288852a05c7830afc58e10bf06e/AndroidManifest.xml:2:1-16:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.ms-square:expandableTextView:0.1.4] /Users/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a65a3d95a0ddf68416a98d20afd23b79/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.nightonke:boommenu:2.1.1] /home/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/db56cc47c0ae8e21b5096834cd1554eb/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8bd2902da986a595fe2366ec356abf26/AndroidManifest.xml:2:1-11:12
+MERGED from [com.ms-square:expandableTextView:0.1.4] /home/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a4dfc46f1e12b0afaa7c4d8af096491d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:3:5-52
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:5:5-37:19
-MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.nightonke:boommenu:2.1.1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/7413a288852a05c7830afc58e10bf06e/AndroidManifest.xml:11:5-14:19
-MERGED from [com.nightonke:boommenu:2.1.1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/7413a288852a05c7830afc58e10bf06e/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/AndroidManifest.xml:9:5-20
-MERGED from [com.ms-square:expandableTextView:0.1.4] /Users/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a65a3d95a0ddf68416a98d20afd23b79/AndroidManifest.xml:9:5-20
-MERGED from [com.ms-square:expandableTextView:0.1.4] /Users/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a65a3d95a0ddf68416a98d20afd23b79/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:25:5-29:19
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:5:5-37:19
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.nightonke:boommenu:2.1.1] /home/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/db56cc47c0ae8e21b5096834cd1554eb/AndroidManifest.xml:11:5-14:19
+MERGED from [com.nightonke:boommenu:2.1.1] /home/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/db56cc47c0ae8e21b5096834cd1554eb/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8bd2902da986a595fe2366ec356abf26/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8bd2902da986a595fe2366ec356abf26/AndroidManifest.xml:9:5-20
+MERGED from [com.ms-square:expandableTextView:0.1.4] /home/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a4dfc46f1e12b0afaa7c4d8af096491d/AndroidManifest.xml:9:5-20
+MERGED from [com.ms-square:expandableTextView:0.1.4] /home/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a4dfc46f1e12b0afaa7c4d8af096491d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:9:9-59
 	android:icon
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:7:9-54
 	android:allowBackup
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:11:9-40
 activity#io.github.mosaic141688.swaziherritage.ItemListActivity
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:13:9-17:20
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:13:9-17:20
 	android:label
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:15:13-45
 	android:theme
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:16:13-56
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:16:13-56
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:14:13-45
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:14:13-45
 activity#io.github.mosaic141688.swaziherritage.ItemDetailActivity
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:parentActivityName
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:21:13-59
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:21:13-59
 	android:label
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:20:13-54
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:20:13-54
 	android:theme
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:22:13-56
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:19:13-47
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:19:13-47
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:23:13-25:90
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:23:13-25:90
 	android:value
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:25:17-87
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:25:17-87
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:24:17-63
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:24:17-63
 activity#io.github.mosaic141688.swaziherritage.MainActivity
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:27:9-36:20
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:27:9-36:20
 	android:label
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:29:13-56
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:29:13-56
 	android:theme
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:28:13-41
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:28:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml:34:27-74
 uses-sdk
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:20:5-44
-MERGED from [com.nightonke:boommenu:2.1.1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/7413a288852a05c7830afc58e10bf06e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.nightonke:boommenu:2.1.1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/7413a288852a05c7830afc58e10bf06e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/42130e1c8029c32bca9d7618150fd3c4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.ms-square:expandableTextView:0.1.4] /Users/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a65a3d95a0ddf68416a98d20afd23b79/AndroidManifest.xml:5:5-7:41
-MERGED from [com.ms-square:expandableTextView:0.1.4] /Users/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a65a3d95a0ddf68416a98d20afd23b79/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:20:5-44
+MERGED from [com.nightonke:boommenu:2.1.1] /home/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/db56cc47c0ae8e21b5096834cd1554eb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.nightonke:boommenu:2.1.1] /home/sihle/.gradle/caches/transforms-1/files-1.1/boommenu-2.1.1.aar/db56cc47c0ae8e21b5096834cd1554eb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8bd2902da986a595fe2366ec356abf26/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sihle/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8bd2902da986a595fe2366ec356abf26/AndroidManifest.xml:5:5-7:41
+MERGED from [com.ms-square:expandableTextView:0.1.4] /home/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a4dfc46f1e12b0afaa7c4d8af096491d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.ms-square:expandableTextView:0.1.4] /home/sihle/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/a4dfc46f1e12b0afaa7c4d8af096491d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sihle/experiments/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		ADDED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sihle/Projects/swaziherritage/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:design:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/25870948638b2a129277c8f311a37769/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:transition:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cc37b1136ba0f38fcf7b0e41f2524039/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/36d8af25605dfb595a670062ef5b2a80/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/e8a2f78beb2d8bbbaa2fc189561c0c3a/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/2f874cbff9ef16fa48fa4e5f58ea17fc/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/bd1d39aca039d36f9762cf72ce3cedc1/AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/df597d72035521a732861dd69104b6da/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/bb02ff18ebf000137f3cfd7ac0d14093/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/97daa7f2aea7e14fc8668b679805f0b1/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/087696f91ffe0555b47d92c67da7eb6e/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-compat:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/9ddef54b37f9b5672e450de801567ade/AndroidManifest.xml:26:9-28:44
+ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:design:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/design-26.0.0-beta1.aar/2bab82786f1f8c747556a84bdc2e99c2/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:transition:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/transition-26.0.0-beta1.aar/cb938fff8edcf1fc4dc6fd74ccbfff32/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-beta1.aar/724b17074d3a53678744c06602b83df1/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0-beta1.aar/d6a84842b756c63bc021d29e791b5e0d/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-beta1.aar/296c8e5fbe9f366a73df371e2bc69d50/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-beta1.aar/a132d2211158ac91175a5e9536170131/AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-beta1.aar/5f2bded34bc9d6b17998780dd85b036b/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-beta1.aar/7aab4cb1945a3032572a3234ef5875ac/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-beta1.aar/365e8c6bde8d723406e73fe09f9a40d8/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-beta1.aar/71bc26b8f6aeebd9515cbff53310b811/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-beta1.aar/207d6d2a3d0ede6401ca1a0899fec281/AndroidManifest.xml:26:9-28:44
 	android:value
-		ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:25:13-41
+		ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:25:13-41
 	android:name
-		ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /Users/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/66202cc4ec8a292b6d628e78f1b1adf1/AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:cardview-v7:26.0.0-beta1] /home/sihle/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-beta1.aar/0a8f3dd2cfbe7fb53d3ee7aad2b002b4/AndroidManifest.xml:24:13-51

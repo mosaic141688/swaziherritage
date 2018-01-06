@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sat Dec 30 07:38:30 SAST 2017
+#Sat Jan 06 21:55:07 SAST 2018
 0.baseType=DIRECTORY
-0.base=/Users/sihle/experiments/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/75
+0.base=/home/sihle/Projects/swaziherritage/app/build/intermediates/transforms/dexMerger/debug/56
 0.path=classes.dex
 0.set=DEX
 count=1

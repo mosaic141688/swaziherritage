@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sihle/experiments/swaziherritage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "/home/sihle/Projects/swaziherritage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "/Users/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/58f3a396de9709e49645b9c7f7187ad2/res/values-lv/values-lv.xml",
+                    "source": "/home/sihle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/87feca0b65488837e9bb49f49846a30d/res/values-lv/values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

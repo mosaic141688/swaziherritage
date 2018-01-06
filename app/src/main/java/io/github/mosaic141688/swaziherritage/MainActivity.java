@@ -3,26 +3,37 @@ package io.github.mosaic141688.swaziherritage;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatImageView;
+import android.support.v7.widget.OrientationHelper;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ms.square.android.expandabletextview.ExpandableTextView;
 import com.nightonke.boommenu.BoomButtons.BoomButton;
+import com.nightonke.boommenu.BoomButtons.BoomButtonBuilder;
+import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
 import com.nightonke.boommenu.BoomButtons.HamButton;
 import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
 import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.ButtonEnum;
+import com.nightonke.boommenu.Piece.PiecePlaceEnum;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -41,8 +52,10 @@ public class MainActivity extends AppCompatActivity {
     public static List<ListContent> etertainment = new ArrayList<>();
     public static List<ListContent> news = new ArrayList<>();
     public static List<ListContent> sport = new ArrayList<>();
+    public static List<ListContent> generic = new ArrayList<>();
     public static  View recyclerView ;//= findViewById(R.id.item_list);
     public static Activity activity;
+    public static AppCompatImageView topImg;
 
     static {
         news.add(new ListContent("news","Local News","News From local media","local"));
@@ -50,8 +63,100 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static {
+        generic.add(new ListContent("generic","Generic Enterteinment and Tourism Content","\n" +
+                "\n" +
+                "MBABANE – Ahead of this afternoon’s capital city derby, Mbabane Highlanders midfielder Mlamuli ‘Mlaba’ Nkambule has declared ‘enough is enough.’\n" +
+                "\n" +
+                "\n" +
+                "The left-footed midfielder is cognisant of the threat posed by their unbeaten rivals that have bossed over them for the past two seasons. Highlanders last won the Mbabane derby in April 2016 in the second round of the MTN League.\n" +
+                "\n" +
+                "\n" +
+                "“We are a far better team now than the previous games. People should not read much on the recent loss to Milling Hotspurs. We know what the derby means to us as players, the team, including our supporters,” he said.\n" +
+                "\n" +
+                "\n" +
+                "When reminded of the fact that his team has not won the derby in the past six games he said; “We are tired of losing to these people and our supporters should come at the stadium to cheer us because we are going to win.”\n" +
+                "Captain Xolani ‘Chocco’ Sibandze added that they are motivated by Swallows’ 39-league unbeaten run streak.\n" +
+                "\n" +
+                "\n" +
+                "“We want to break that run and it is good that we will be underdogs. It is in games like this where we have to show character. In our first round meeting, the team had just been put together with a handful of new signings but now, we have been together for a while and the coach (Professor Ngubane) has watched them (Swallows) play in a number of occasions,” the flying winger said.  \n" +
+                "‘Chocco’ is expected to be named in a four-men attacking line alongside Mphucuko ‘Smoothies’ Dlamini, Mfan’fikile ‘Fash’ Ndzimandze and Menzi Sithole. \n" +
+                "\n" +
+                "\n" +
+                "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"
+                ,"local"));
+        generic.add(new ListContent("generic","Generic Enterteinment and Tourism Content","\n" +
+                "\n" +
+                "MBABANE – Ahead of this afternoon’s capital city derby, Mbabane Highlanders midfielder Mlamuli ‘Mlaba’ Nkambule has declared ‘enough is enough.’\n" +
+                "\n" +
+                "\n" +
+                "The left-footed midfielder is cognisant of the threat posed by their unbeaten rivals that have bossed over them for the past two seasons. Highlanders last won the Mbabane derby in April 2016 in the second round of the MTN League.\n" +
+                "\n" +
+                "\n" +
+                "“We are a far better team now than the previous games. People should not read much on the recent loss to Milling Hotspurs. We know what the derby means to us as players, the team, including our supporters,” he said.\n" +
+                "\n" +
+                "\n" +
+                "When reminded of the fact that his team has not won the derby in the past six games he said; “We are tired of losing to these people and our supporters should come at the stadium to cheer us because we are going to win.”\n" +
+                "Captain Xolani ‘Chocco’ Sibandze added that they are motivated by Swallows’ 39-league unbeaten run streak.\n" +
+                "\n" +
+                "\n" +
+                "“We want to break that run and it is good that we will be underdogs. It is in games like this where we have to show character. In our first round meeting, the team had just been put together with a handful of new signings but now, we have been together for a while and the coach (Professor Ngubane) has watched them (Swallows) play in a number of occasions,” the flying winger said.  \n" +
+                "‘Chocco’ is expected to be named in a four-men attacking line alongside Mphucuko ‘Smoothies’ Dlamini, Mfan’fikile ‘Fash’ Ndzimandze and Menzi Sithole. \n" +
+                "\n" +
+                "\n" +
+                "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"
+                ,"local"));
+        generic.add(new ListContent("generic","Generic Enterteinment and Tourism Content","\n" +
+                "\n" +
+                "MBABANE – Ahead of this afternoon’s capital city derby, Mbabane Highlanders midfielder Mlamuli ‘Mlaba’ Nkambule has declared ‘enough is enough.’\n" +
+                "\n" +
+                "\n" +
+                "The left-footed midfielder is cognisant of the threat posed by their unbeaten rivals that have bossed over them for the past two seasons. Highlanders last won the Mbabane derby in April 2016 in the second round of the MTN League.\n" +
+                "\n" +
+                "\n" +
+                "“We are a far better team now than the previous games. People should not read much on the recent loss to Milling Hotspurs. We know what the derby means to us as players, the team, including our supporters,” he said.\n" +
+                "\n" +
+                "\n" +
+                "When reminded of the fact that his team has not won the derby in the past six games he said; “We are tired of losing to these people and our supporters should come at the stadium to cheer us because we are going to win.”\n" +
+                "Captain Xolani ‘Chocco’ Sibandze added that they are motivated by Swallows’ 39-league unbeaten run streak.\n" +
+                "\n" +
+                "\n" +
+                "“We want to break that run and it is good that we will be underdogs. It is in games like this where we have to show character. In our first round meeting, the team had just been put together with a handful of new signings but now, we have been together for a while and the coach (Professor Ngubane) has watched them (Swallows) play in a number of occasions,” the flying winger said.  \n" +
+                "‘Chocco’ is expected to be named in a four-men attacking line alongside Mphucuko ‘Smoothies’ Dlamini, Mfan’fikile ‘Fash’ Ndzimandze and Menzi Sithole. \n" +
+                "\n" +
+                "\n" +
+                "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"
+                ,"local"));
+        generic.add(new ListContent("generic","Generic Entertainment's" +
+                " and Tourism Content","\n" +
+                "\n" +
+                "MBABANE – Ahead of this afternoon’s capital city derby, Mbabane Highlanders midfielder Mlamuli ‘Mlaba’ Nkambule has declared ‘enough is enough.’\n" +
+                "\n" +
+                "\n" +
+                "The left-footed midfielder is cognisant of the threat posed by their unbeaten rivals that have bossed over them for the past two seasons. Highlanders last won the Mbabane derby in April 2016 in the second round of the MTN League.\n" +
+                "\n" +
+                "\n" +
+                "“We are a far better team now than the previous games. People should not read much on the recent loss to Milling Hotspurs. We know what the derby means to us as players, the team, including our supporters,” he said.\n" +
+                "\n" +
+                "\n" +
+                "When reminded of the fact that his team has not won the derby in the past six games he said; “We are tired of losing to these people and our supporters should come at the stadium to cheer us because we are going to win.”\n" +
+                "Captain Xolani ‘Chocco’ Sibandze added that they are motivated by Swallows’ 39-league unbeaten run streak.\n" +
+                "\n" +
+                "\n" +
+                "“We want to break that run and it is good that we will be underdogs. It is in games like this where we have to show character. In our first round meeting, the team had just been put together with a handful of new signings but now, we have been together for a while and the coach (Professor Ngubane) has watched them (Swallows) play in a number of occasions,” the flying winger said.  \n" +
+                "‘Chocco’ is expected to be named in a four-men attacking line alongside Mphucuko ‘Smoothies’ Dlamini, Mfan’fikile ‘Fash’ Ndzimandze and Menzi Sithole. \n" +
+                "\n" +
+                "\n" +
+                "Swallows captain Tony Tsabedze insisted that they were not reading much into their unprecedented run in the league, leaving their unbeaten streak to bookmakers.\n" +
+                "“Just like any game, it is about the three. The records are not important to us and we are prepared for the battle,” the left-footed winger said.\n"
+                ,"local"));
+    }
+
+    static {
         sport.add(new ListContent("sport","Local Sports","News From local media","local"));
-        sport.add(new ListContent("sport","Europe Sports","European Sports","eu"));
+        sport.add(new ListContent("sport","UEFA","European Sports","eu"));
         sport.add(new ListContent("sport","World Sports","International Sports","int"));
         sport.add(new ListContent("sport","South African Sports","News from International media","international"));
     }
@@ -71,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
 
 static {
     etertainment.add(new ListContent("01","Clubs","Local Clubs",""));
-    etertainment.add(new ListContent("01","Brai Houses","Eat the best brai",""));
+    etertainment.add(new ListContent("01","Braii Houses","Eat the best brai",""));
     etertainment.add(new ListContent("01","Chill Sessions","Where to chill",""));
 }
 
@@ -220,22 +325,105 @@ static {
 
 
     static{
-        promotions.add(new ListContent("","","",""));
+        promotions.add(new ListContent("01","Swazi Heritage","All the latest trends on the go","",R.drawable.image2));
     }
+
+    private void setSubMenu(BoomMenuButton re_bmb,List l,int icon,int text_color,int color){
+        if (l.size()==0) return;
+        final List<BoomButtonBuilder> otherBuilders = new ArrayList<>();
+
+        BoomMenuButton bmbt = findViewById(R.id.rere_bmb);
+       // bmbt.setButtonEnum(ButtonEnum.Ham);
+        //bmbt.setVisibility(View.GONE);
+
+        for(int i=0;i<l.size();i++){
+            otherBuilders.add(new HamButton.Builder()
+                    .normalImageRes(icon)
+                    .normalText(((ListContent)l.get(i)).title)
+                    .normalTextColorRes(text_color)
+                    .subNormalTextColorRes(text_color)
+                    .normalColorRes(color)
+                    .listener(index ->{
+                        re_bmb.setVisibility(View.GONE);
+                        Log.e("ID",((ListContent)l.get(index)).id);
+                        if(((ListContent)l.get(index)).id.equals("entour")){
+                            HashMap<String,List> links = new HashMap<>();
+                            links.put("tourism",tourism);
+                            links.put("entertainment",etertainment);
+                            setSubMenu(bmbt,links.get(((ListContent)l.get(index)).action),icon,text_color,color);
+                            return;
+                        }
+
+                        if(((ListContent)l.get(index)).id.equals("news")){
+                            setupRecyclerView((RecyclerView) recyclerView,listContents);
+                            return;
+                        }
+
+                        if(((ListContent)l.get(index)).id.equals("sport")){
+                            setupRecyclerView((RecyclerView) recyclerView,sports);
+                            return;
+                        }else{
+                            setupRecyclerView((RecyclerView) recyclerView,generic);
+                        }
+
+                    })
+            );
+        }
+
+        List<PiecePlaceEnum> piecePlaceEnums = new ArrayList<>();
+        List<ButtonPlaceEnum> buttonPlaceEnums = new ArrayList<>();
+
+        piecePlaceEnums.add(0,PiecePlaceEnum.HAM_1);
+        piecePlaceEnums.add(1,PiecePlaceEnum.HAM_2);
+        piecePlaceEnums.add(2,PiecePlaceEnum.HAM_3);
+        piecePlaceEnums.add(3,PiecePlaceEnum.HAM_4);
+        piecePlaceEnums.add(4,PiecePlaceEnum.HAM_5);
+        piecePlaceEnums.add(5,PiecePlaceEnum.HAM_6);
+
+      buttonPlaceEnums.add(0,ButtonPlaceEnum.HAM_1);
+      buttonPlaceEnums.add(1,ButtonPlaceEnum.HAM_2);
+      buttonPlaceEnums.add(2,ButtonPlaceEnum.HAM_3);
+      buttonPlaceEnums.add(3,ButtonPlaceEnum.HAM_4);
+      buttonPlaceEnums.add(4,ButtonPlaceEnum.HAM_5);
+      buttonPlaceEnums.add(5,ButtonPlaceEnum.HAM_6);
+
+        re_bmb.reboomImmediately();
+        re_bmb.setPiecePlaceEnum(piecePlaceEnums.get(l.size()-1));
+        re_bmb.setButtonPlaceEnum(buttonPlaceEnums.get(l.size()-1));
+        Log.e("BMB",re_bmb.getBuilders().toString());
+        re_bmb.setBuilders((ArrayList)otherBuilders);
+        Log.e("BMB",re_bmb.getBuilders().toString());
+        //  bmb.boomImmediately();
+        re_bmb.setVisibility(View.VISIBLE);
+        //re_bmb.boom();
+        re_bmb.setAutoBoom(true);
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         final Toolbar toolbar =  findViewById(R.id.toolbar);
+        final BoomMenuButton re_bmb = findViewById(R.id.re_bmb);
         setSupportActionBar(toolbar);
+        setTitle("Swazi Mobile");
         toolbar.setSubtitle("We Work We connect We Serve");
 
+        TextView footerTextView = findViewById(R.id.footer);
+        String cp = "Copyright 2018 "+(char)169+" Swazi Heritage";
+        footerTextView.setText(cp);
+
+       topImg = findViewById(R.id.topimg);
+        topImg.setAdjustViewBounds(true);
         final BoomMenuButton bmb = findViewById(R.id.bmb);
         bmb.setNormalColor(R.color.colorPrimary);
         recyclerView = findViewById(R.id.item_list);
 
         final HashMap<String, Integer> icons = new HashMap<>();
         final HashMap<String, List> lists = new HashMap<>();
+
         final HashMap<String, Integer> colors = new HashMap<>();
 
         icons.put("Swazi4U", R.drawable.ic_action_swazifu);
@@ -250,46 +438,71 @@ static {
         lists.put("Entertainment & Tourism", entour);
         lists.put("Educational Links",education);
 
-
-
         colors.put("Swazi4U", R.color.red);
         colors.put("News", R.color.white);
         colors.put("Sports", R.color.grey);
         colors.put("Entertainment & Tourism", R.color.red);
         colors.put("Educational Links",R.color.white);
 
-
         activity = this;
 
         final List[] lst = new List[bmb.getPiecePlaceEnum().pieceNumber()];
 
+        final List<BoomButtonBuilder> homeBuilders = new ArrayList<>();
+        List<String> submenues = new ArrayList<>();
+        submenues.add("Entertainment & Tourism");
+        submenues.add("Sports");
+        submenues.add("News");
+
+
+
+
         for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
             lst[i] = lists.get(DummyContent.ITEMS.get(i).title);
+
+            //if(i==4) continue;
+            final int ind= i;
+            final int icon = icons.get(DummyContent.ITEMS.get(i).title);
+            final int color = colors.get(DummyContent.ITEMS.get(i).title);
+            final int text_color = colors.get(DummyContent.ITEMS.get(i).title)!=R.color.white?R.color.white:R.color.red;
             HamButton.Builder builder = new HamButton.Builder()
-                    .normalImageRes(icons.get(DummyContent.ITEMS.get(i).title))
+                    .normalImageRes(icon)
                     .normalText(DummyContent.ITEMS.get(i).title)
-                    .normalTextColorRes(colors.get(DummyContent.ITEMS.get(i).title)!=R.color.white?R.color.white:R.color.red)
-                    .subNormalTextColorRes(colors.get(DummyContent.ITEMS.get(i).title)!=R.color.white?R.color.white:R.color.red)
-                    .normalColorRes(colors.get(DummyContent.ITEMS.get(i).title))
+                    .normalTextColorRes(text_color)
+                    .subNormalTextColorRes(text_color)
+                    .normalColorRes(color)
                     .listener(new OnBMClickListener() {
                         @Override
                         public void onBoomButtonClick(int index) {
                             Log.e("Boom Index",""+index);
-                            setupRecyclerView((RecyclerView) recyclerView,lst[index]);
-                            toolbar.setTitle(DummyContent.ITEMS.get(index).title);
-                            toolbar.setSubtitle(DummyContent.ITEMS.get(index).details);
+                            //
+                            //toolbar.setTitle(DummyContent.ITEMS.get(index).title);
+                            //toolbar.setSubtitle(DummyContent.ITEMS.get(index).details);
+                            if(submenues.contains(DummyContent.ITEMS.get(ind).title)){
+                                setSubMenu(re_bmb,lst[index],icon,text_color,color);
+                            }
+                            else {
+                                setupRecyclerView((RecyclerView) recyclerView,lst[index]);
+                            }
+
+
                         }
                     })
                     .subNormalText(DummyContent.ITEMS.get(i).details);
-            bmb.addBuilder(builder);
+            homeBuilders.add(builder);
         }
 
+      bmb.setBuilders((ArrayList)homeBuilders);
+
         assert recyclerView != null;
-        setupRecyclerView((RecyclerView) recyclerView,listContents);
+        setupRecyclerView((RecyclerView) recyclerView,promotions);
+        topImg.setVisibility(View.GONE);
+        //bmb.setAutoBoom(true);
 
     }
 
     private static void setupRecyclerView(@NonNull RecyclerView recyclerView,List _list) {
+        topImg.setVisibility(View.VISIBLE);
         recyclerView.setAdapter(new MainActivity.SimpleItemRecyclerViewAdapter((MainActivity) activity, _list, false));
     }
 
@@ -302,23 +515,6 @@ static {
         private final View.OnClickListener mOnClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             /*   DummyContent.MenuItem item = (DummyContent.MenuItem) view.getTag();
-                if (mTwoPane) {
-                    Bundle arguments = new Bundle();
-                    arguments.putString(ItemDetailFragment.ARG_ITEM_ID, item.id);
-                    ItemDetailFragment fragment = new ItemDetailFragment();
-                    fragment.setArguments(arguments);
-                    mParentActivity.getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.item_detail_container, fragment)
-                            .commit();
-                } else {
-                    Context context = view.getContext();
-                    Intent intent = new Intent(context, ItemDetailActivity.class);
-                    intent.putExtra(ItemDetailFragment.ARG_ITEM_ID, item.id);
-
-                    context.startActivity(intent);
-                }*/
-
              Log.e("View TAG","view.getTag().toString()");
 
             }
@@ -344,7 +540,13 @@ static {
         public void onBindViewHolder(final MainActivity.SimpleItemRecyclerViewAdapter.ViewHolder holder, final int position) {
             holder.mIdView.setText(mValues.get(position).title);
             holder.expTv.setText(mValues.get(position).body);
-
+            if(mValues.get(position).image==0){
+                holder.imageView.setVisibility(View.GONE);
+            }else {
+                holder.imageView.setImageResource(mValues.get(position).image);
+                holder.imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
+                holder.imageView.setAdjustViewBounds(true);
+            }
             holder.itemView.setTag(mValues.get(position));
             holder.mIdView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -395,14 +597,17 @@ static {
 
         class ViewHolder extends RecyclerView.ViewHolder {
             final TextView mIdView;
+            final AppCompatImageView imageView;
             final TextView mContentView;
             final ExpandableTextView expTv;
+
 
             ViewHolder(View view) {
                 super(view);
                 expTv = view.findViewById(R.id.expand_text_view);
                 mIdView = view.findViewById(R.id.id_text);
                 mContentView =  view.findViewById(R.id.expandable_text);
+                imageView = view.findViewById(R.id.image);
             }
         }
     }
@@ -416,12 +621,22 @@ class ListContent {
     public final String title;
     public final String body;
     public final String action;
+    public final int image;
 
     public ListContent(String id, String title, String body,String action) {
         this.id = id;
         this.action = action;
         this.title = title;
         this.body = body;
+        this.image = 0;
+    }
+
+    public ListContent(String id, String title, String body,String action, int image) {
+        this.id = id;
+        this.action = action;
+        this.title = title;
+        this.body = body;
+        this.image = image;
     }
 
 }
